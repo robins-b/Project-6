@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Allerta"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Abel"
+      rel="stylesheet"
+    />
+    <style>
+      /* Write styles here */
+      *{
+        margin: 0;
+        padding: 0;
+        font-family: Allerta;
+      }
+      body{
+        width: 93%;
+      }
+
+
+      #navbarMonstera{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         margin-left: 10px;
+         height: 10vh;
+         width: 100%;
+         padding: 0 60px;
+      }
+      
+      #navFirst img{
+        height: 45px;
+      }
+
+      #navMid{
+        display: flex;
+        flex: 0.7;
+        justify-content: space-between;
+        font-size: 23px;
+      }
+
+      #navMid div h4:hover{
+        border-bottom: solid 2px #000000;
+        display: inline;
+        padding-bottom: 3px;
+      }
+
+      #navEnd{
+        display: flex;
+        justify-content: space-between;
+        width: 10%;
+      }
+
+      #midWholePart11{
+        position: relative;
+        top: 200px;
+        height: 50vh;
+        width: 500px;
+        margin-left: 60px;
+      }
+
+      #midWholePart11 div>ul li{
+        margin-top: 10px;
+      }
+
+      #monstera{
+        position: relative;
+        top: 35px;
+        font-size: 150px;
+        width: 700px;
+      }
+      
+      #midWholePart121{
+        position: relative;
+        left: 60px;
+        top: 80px;
+      }
+
+      #midWholePart121 h1{
+        background-color: #496640;
+        color: #ffffff;
+        font-weight: 100;
+        text-align: left;
+        font-size: 50px;
+        width: 300px;
+        padding: 10px 30px;
+        border-radius: 40px;
+      }
+
+      #midWholePart121 h1::after{
+        content: "";
+        position: absolute;
+        left: 290px;
+        top: 35px;
+        height: 10px;
+        width: 10px;
+        border: solid #ffffff;
+        border-width: 0 5px 5px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+      }
+
+      #midWholePart13{
+        display: flex;
+        position: absolute;
+        justify-content: space-between;
+        align-items: center;
+        bottom: 20px;
+        left: 50px;
+        width: 1200px;
+      }
+
+      #midWholePart13 h4{
+          font-size: 25px;
+      }
+
+      .text{
+        font-size: 15px;
+      }
+
+      .midWholePart13Parts{
+        display: flex;
+        padding: 30px;
+        align-items: center;
+      }
+
+      #light,#care{
+        position: relative;
+        right: 20px;
+        height: 60px;
+      }
+
+      #feeding{
+        position: relative;
+        height: 90px;
+        top: 10px;
+        right: 20px;
+      }
+      
+
+
+      #imgMain{
+        position: absolute;
+        height: 85vh;
+        right: 0px;
+        bottom: 0;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <nav id="navbarMonstera">
+      <div id="navFirst">
+        <img src="./photos/Logo.svg" />
+      </div>
+
+      <div id="navMid">
+        <div>
+          <h4>Home</h4>
+        </div>
+        <div><h4>Collection</h4></div>
+        <div>
+          <h4>Shop</h4>
+        </div>
+        <div>
+          <h4>About</h4>
+        </div>
+        <div>
+          <h4>Contact</h4>
+        </div>
+      </div>
+
+      <div id="navEnd">
+        <div>
+          <img src="/photos/cart.svg" />
+        </div>
+        <div>
+          <img src="./photos/user.svg" />
+        </div>
+        <div>
+          <img src="./photos/search.svg" />
+        </div>
+      </div>
+    </nav>
+
+    <div id="midWhole">
+      <div id="midWholePart1">
+        <div id="midWholePart11">
+          <div>
+            <ul>
+              <li><h1 id="monstera">MONSTERA</h1></li>
+              <li></li>
+              <li>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Debitis ab veniam adipisci corrupti unde, nostrum saepe.
+              </li>
+              <li>
+                Quibusdam perferendis, dolore est odit iste cum quas quidem
+                officiis laudantium hic maxime recusandae?
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="midWholePart12">
+          <div id="midWholePart121">
+            <div>
+              <h1>DISCOVER</h1>
+            </div>
+            <div id="midWholePart122">
+              <img src="./photos/greaterThan.svg" />
+            </div>
+          </div>
+        </div>
+        <div id="midWholePart13">
+          <div class="midWholePart13Parts">
+            <div>
+              <img id="feeding" src="./photos/water plant.png" />
+            </div>
+            <div>
+              <h4>Feeding</h4>
+              <p class="text">
+                Lorem ipsum dolor sit amet consecteturadipisicing elit
+              </p>
+            </div>
+          </div>
+          <div class="midWholePart13Parts">
+            <div>
+              <img id="light" src="./photos/light.svg" alt="" />
+            </div>
+            <div>
+              <h4>Light</h4>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+              </p>
+            </div>
+          </div>
+          <div class="midWholePart13Parts">
+            <div>
+              <img id="care" src="./photos/plough.svg" />
+            </div>
+            <div>
+              <h4>Care</h4>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img id="imgMain" src="./photos/6_folwer_cut.png" />
+      </div>
+    </div>
+  </body>
+</html>
